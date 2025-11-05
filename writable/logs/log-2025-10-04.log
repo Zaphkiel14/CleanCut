@@ -1,0 +1,44 @@
+DEBUG - 2025-10-04 12:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-04 12:44:09 --> User ID: 14, Role: owner
+DEBUG - 2025-10-04 12:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-04 12:44:22 --> Analytics Debug - Overall Stats: {"total_appointments":"4","total_earnings":"1000.00","average_per_appointment":"250.000000","total_customers":"1"}
+INFO - 2025-10-04 12:44:22 --> Analytics Debug - Barber Performance: [{"barber_id":"7","first_name":"jose louis","last_name":"babiano","barber_name":"jose louis babiano","total_appointments":"4","total_earnings":"1000.00","average_per_appointment":"250.000000"}]
+INFO - 2025-10-04 12:44:22 --> Analytics Debug - Service Popularity: [{"service_name":"Haircut","booking_count":"4","revenue":"1000.00"}]
+INFO - 2025-10-04 12:44:22 --> Analytics Debug - Shop ID: 4
+CRITICAL - 2025-10-04 12:44:22 --> ErrorException: Undefined array key "commission"
+[Method: GET, Route: CleanCut/analytics]
+in APPPATH\Views\analytics\owner_dashboard.php on line 174.
+ 1 APPPATH\Views\analytics\owner_dashboard.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "commission"', 'C:\\xampp\\htdocs\\CleanCut\\app\\Views\\analytics\\owner_dashboard.php', 174)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CleanCut\\app\\Views\\analytics\\owner_dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('analytics/owner_dashboard', [], true)
+ 5 APPPATH\Controllers\AnalyticsController.php(139): view('analytics/owner_dashboard', [...])
+ 6 APPPATH\Controllers\AnalyticsController.php(43): App\Controllers\AnalyticsController->ownerAnalytics()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AnalyticsController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AnalyticsController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-10-04 12:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-04 12:46:18 --> Analytics Debug - Overall Stats: {"total_appointments":"4","total_earnings":"1000.00","average_per_appointment":"250.000000","total_customers":"1"}
+INFO - 2025-10-04 12:46:18 --> Analytics Debug - Barber Performance: [{"barber_id":"7","first_name":"jose louis","last_name":"babiano","barber_name":"jose louis babiano","total_appointments":"4","total_earnings":"1000.00","average_per_appointment":"250.000000","commission":"700.0000"}]
+INFO - 2025-10-04 12:46:18 --> Analytics Debug - Service Popularity: [{"service_name":"Haircut","booking_count":"4","revenue":"1000.00"}]
+INFO - 2025-10-04 12:46:18 --> Analytics Debug - Shop ID: 4
+DEBUG - 2025-10-04 12:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 12:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
