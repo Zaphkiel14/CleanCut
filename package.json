@@ -1,0 +1,30 @@
+{
+  "name": "cleancut-websocket-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for CleanCut barbershop management system",
+  "main": "websocket_server.js",
+  "scripts": {
+    "start": "node websocket_server.js",
+    "dev": "nodemon websocket_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "realtime",
+    "barbershop",
+    "management",
+    "automation"
+  ],
+  "author": "CleanCut Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
